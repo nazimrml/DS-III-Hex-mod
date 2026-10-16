@@ -1,0 +1,27 @@
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.temp
+*~
+
+# Release archives (distribute via GitHub Releases / Nexus Mods)
+*.rar
+*.zip
+*.7z
+*.tar.gz
