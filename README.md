@@ -2,9 +2,18 @@
 
 [![Game Version](https://img.shields.io/badge/Dark%20Souls%20III-App%201.15%20%2F%20Reg%201.35-blue.svg)](#compatibility)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-PC-lightgrey.svg)](#installation)
+[![Download .RAR](https://img.shields.io/badge/Download-Mod%20Archive%20(.RAR)-2ea44f?style=for-the-badge&logo=winrar)](https://github.com/nazimrml/DS-III-Hex-mod/releases/latest/download/DS_III_Hex_Mod.rar)
 
-A complete, lore-grounded overhaul that restores the authentic **Dark Souls II Hex magic system** to Dark Souls III. Experience genuine Dark sorceries and chimes with original DS2 INT & FTH stat requirements, heavy endgame spell damage scaling, the Sunset Staff with native animations, progression through Umbral Ashes, and lore-accurate boss resistances.
+A complete, lore-grounded overhaul that restores the authentic **Dark Souls II Hex magic system** to Dark Souls III. Experience genuine Dark sorceries and chimes with original DS2 INT & FTH stat requirements, heavy endgame spell damage scaling, the Sunset Staff with native animations, natural progression through Umbral Ashes, and lore-accurate boss resistances.
+
+---
+
+## Download
+
+You can download the complete mod package as a `.rar` archive:
+
+- **[Download DS_III_Hex_Mod.rar (Latest Release)](https://github.com/nazimrml/DS-III-Hex-mod/releases/latest/download/DS_III_Hex_Mod.rar)**
+- **[Direct Repository Download (DS_III_Hex_Mod.rar)](https://github.com/nazimrml/DS-III-Hex-mod/raw/main/DS_III_Hex_Mod.rar)**
 
 ---
 
@@ -16,8 +25,6 @@ A complete, lore-grounded overhaul that restores the authentic **Dark Souls II H
 - [Shrine Handmaid Shop Progression](#shrine-handmaid-shop-progression)
 - [Boss Hex Resistances](#boss-hex-resistances)
 - [Installation Guide](#installation-guide)
-  - [Method 1: Direct Drop-in (Recommended)](#method-1-direct-drop-in-recommended)
-  - [Method 2: ModEngine 2](#method-2-modengine-2)
 - [Uninstallation](#uninstallation)
 - [Compatibility](#compatibility)
 - [License](#license)
@@ -122,26 +129,22 @@ Bosses have been individually tuned based on lore and design:
 
 ## Installation Guide
 
-### Method 1: Direct Drop-in (Recommended)
+### Manual Installation (Drop-in)
 
-1. Open your Dark Souls III **Game** directory:
+1. Download **`DS_III_Hex_Mod.rar`** (or download **`Data0.bdt`** directly from this repository).
+2. Extract the `.rar` to get the `Data0.bdt` file.
+3. Locate your Dark Souls III **Game** directory:
    - Steam Default: `C:\Program Files (x86)\Steam\steamapps\common\DARK SOULS III\Game\`
    - (Or right-click Dark Souls III in Steam &rarr; **Manage** &rarr; **Browse local files** &rarr; open the **Game** folder).
-2. *(Optional)* Back up your original `Data0.bdt` file.
-3. Copy `Data0.bdt` from this repository/release and paste it into your `Game` folder, replacing the existing file.
-4. Launch the game normally via **Steam** or **`DarkSoulsIII.exe`**.
-
-### Method 2: ModEngine 2
-
-1. Copy the included `mod` folder into your ModEngine 2 root directory.
-2. Launch using `launchmod_darksouls3.bat`.
+4. *(Optional but recommended)* Make a backup copy of your original `Data0.bdt` (e.g. rename it to `Data0.bdt.bak`).
+5. Copy the modded `Data0.bdt` file and paste it into your `Game` folder, overwriting the original.
+6. Launch the game normally via **Steam** or **`DarkSoulsIII.exe`**!
 
 ---
 
 ## Uninstallation
 
-- **Method 1**: Restore your backed up `Data0.bdt`, or right-click Dark Souls III in Steam &rarr; **Properties** &rarr; **Installed Files** &rarr; **Verify integrity of game files**.
-- **Method 2**: Remove `Data0.bdt` from your ModEngine 2 `mod` folder.
+- Restore your backup `Data0.bdt`, or right-click Dark Souls III in Steam &rarr; **Properties** &rarr; **Installed Files** &rarr; **Verify integrity of game files**.
 
 ---
 

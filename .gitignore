@@ -20,8 +20,9 @@ $RECYCLE.BIN/
 *.temp
 *~
 
-# Release archives (distribute via GitHub Releases / Nexus Mods)
-*.rar
+# Archives (except official release archive)
 *.zip
 *.7z
 *.tar.gz
+*.rar
+!DS_III_Hex_Mod.rar
