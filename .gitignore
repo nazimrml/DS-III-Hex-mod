@@ -20,9 +20,8 @@ $RECYCLE.BIN/
 *.temp
 *~
 
-# Archives (except official release archive)
+# Archives (distribute via GitHub Releases)
 *.zip
 *.7z
 *.tar.gz
 *.rar
-!DS_III_Hex_Mod.rar
